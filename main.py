@@ -62,7 +62,7 @@ def go(config: DictConfig):
             parameters={
                 "reference_artifact": config["data"]["reference_dataset"],
                 "sample_artifact": "preprocessed_data.csv:latest",
-                ks_alpha: config["data"]["ks_alpha"]
+                "ks_alpha": config["data"]["ks_alpha"]
             },
         )
 
